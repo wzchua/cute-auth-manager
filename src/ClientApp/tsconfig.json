@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "outDir": "./build/",
+      "module": "commonjs",
+      "target": "es6",
+      "lib": ["es6", "dom"],
+      "jsx": "react",
+      "allowJs": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "strict": true,
+      "rootDirs": ["src", "stories"],
+    },
+    "include": [
+         "src/**/*"
+    ],
+  }
